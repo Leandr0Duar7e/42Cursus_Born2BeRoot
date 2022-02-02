@@ -16,7 +16,7 @@ Debian and CentOS are the main used Linux distributions in the market and are bo
    
   KDump - is a linux feature que guarda a memória do programa quando o computador crasha ou desliga abrutamente e permite anlisys for debugging and determining the cause of crash. Quando acontece um erro destes o KDump inicia um novo kernel with the data and memory saved. All the memory RAM(Random Access Memory) is preserved and saved so it cannot be overwritten due to the crash handle 
   
-  SELinux - Security-Enhanced Linux is an implmentation of the MAC arquicthure in Linux. It was developed by NSA and it works as a security server.
+  SELinux - Security-Enhanced Linux is an implmentation of the MAC(Mandatory Access Control) arquicthure in Linux. It was developed by NSA and it works as a security server.
   
   AppArmor - 
   
