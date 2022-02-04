@@ -18,12 +18,34 @@ Debian and CentOS are the main used Linux distributions in the market and are bo
   
   SELinux - Security-Enhanced Linux is an implmentation of the MAC(Mandatory Access Control) arquicthure in Linux. It was developed by NSA and it works as a security server. It provides a variety of security policies. Running SELinux under a Linux distribution requires three things: An SELinux enabled kernel, SELinux Userspace tools and libraries, and SELinux Policies (mostly based on the Reference Policy). Some common Linux programs will also need to be patched/compiled with SELinux features.
   
-  AppArmor - is a Mandatory Access Control (MAC) system, implemented upon the Linux Security Modules (LSM)
+  AppArmor - is a Mandatory Access Control (MAC) system, implemented upon the Linux Security Modules (LSM). It is an alternative to SELinux and easier to install and adapt to the system. It controls the permissions of users to take actions and triggers messages to the system when somone trys to hack. it takes a matter of ours to hack AppArmor. AppArmor supplements the traditional Unix discretionary access control (DAC) model by providing mandatory access control (MAC)
   
-  LVM
-  aptitude
-  apt
-  SSH
+  LVM - Logical Volume Manager
+  LVM is used for the following purposes:
+    Creating single logical volumes of multiple physical volumes or entire hard disks, allowing for dynamic volume resizing.
+    Managing large hard disk farms by allowing disks to be added and replaced without downtime or service disruption, in combination with hot swapping.
+    On small systems (like a desktop), instead of having to estimate at installation time how big a partition might need to be, LVM allows filesystems to be easily resized as needed.
+    Performing consistent backups by taking snapshots of the logical volumes.
+    Encrypting multiple physical partitions with one password.
+
+LVM can be considered as a thin software layer on top of the hard disks and partitions, which creates an abstraction of continuity and ease-of-use for managing hard drive replacement, repartitioning and backup.
+  
+  Ncurses - is a programming library providing an API, allowing the programmer to write text-based user interfaces, Text User Interface (TUI), in a terminal-independent manner. It also optimizes screen changes, in order to reduce the latency experienced when using remote Unix shell.
+  
+  Aptitude - is an Ncurses and command-line based front-end to numerous Apt libraries, which are also used by Apt, the default Debian package manager. Aptitude is text based and run from a terminal.
+  Aptitude has a number of useful features, including:
+    a mutt-like syntax for matching packages in a flexible manner
+    mark packages as "automatically installed" or "manually installed" so that packages can be auto-removed when no longer required (feature available in Apt,    too,   since quite a few Debian release)
+    preview of actions about to be taken with different colors marking different actions
+    the ability to interactively retrieve and display the Debian changelog of all available official packages
+apt-like (i.e. apt-get and apt-cache) command line mode ("aptitude install foo")
+    Score-based dependency resolver which is more suitable for interactive dependency resolution with additional hints from the user like "I don't want that part of the solution but keep that other part of the solution for your next try". Apt's dependency resolver on the other hand is optimized for good "one shot" solutions.  
+    The primary command is "aptitude"
+  
+  Apt - Advanced Package Tool
+    The main command-line package manager for Debian and its derivatives. It provides command-line tools for searching, managing and querying information about packages, as well as low-level access to all features provided by the libapt-pkg and libapt-inst libraries which higher-level package managers can depend upon.
+  
+  SSH - Secure Shell
   UFW firewall
   DNF
   sudo
