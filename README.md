@@ -46,7 +46,16 @@ apt-like (i.e. apt-get and apt-cache) command line mode ("aptitude install foo")
     The main command-line package manager for Debian and its derivatives. It provides command-line tools for searching, managing and querying information about packages, as well as low-level access to all features provided by the libapt-pkg and libapt-inst libraries which higher-level package managers can depend upon.
   
   SSH - Secure Shell
-  UFW firewall
+    Secure Shell (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network. Typical applications include remote command-line login and remote command execution, but any network service can be secured with SSH. GIT is an example of uing SSH.
+    A criptografia usada pelo SSH objetiva fornecer confidencialidade e integridade de dados sobre uma rede insegura, como a Internet, apesar dos arquivos vazados por Edward Snowden indicarem que a Agência de Segurança Nacional pode algumas vezes descriptografar o SSH, permitindo-os ler o conteúdo de sessões SSH
+  
+  UFW - Uncomplicated Firewall is a program for managing a netfilter firewall.
+  
+  Firewall - Is a sotware or hardware used in a computer network which applies a security policie determining the security level and the data that is allowed to go in and out the network. It creates a safety barrier between a private network and the internet
+  
+  ![2B7BC106-349A-43EF-AFBD-D7EA2E79490E_1_105_c](https://user-images.githubusercontent.com/56501818/152540984-fd36ae4f-04f7-48ef-bfd9-8afd7b0ed25f.jpeg)
+
+  
   DNF
   sudo
   TTY mode password
