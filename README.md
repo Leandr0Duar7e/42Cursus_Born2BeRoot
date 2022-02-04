@@ -58,8 +58,19 @@ apt-like (i.e. apt-get and apt-cache) command line mode ("aptitude install foo")
   ![2B7BC106-349A-43EF-AFBD-D7EA2E79490E_1_105_c](https://user-images.githubusercontent.com/56501818/152540984-fd36ae4f-04f7-48ef-bfd9-8afd7b0ed25f.jpeg)
 
  
+
+  sudo - allows a system administrator to delegate authoriy to give to certain users or group of users te ability to run commands as root or another user while providing an audit trail of the commands and their arguments. Sudo is an alternativo to su for running commands as root. Unlike su, which launches a root shell that allows all futher commands root access, sudo instead grants temporary privilege elevation to a single command. By enabling root privileges only when needed, sudo usage reduces the likelihood that a typo or a bug in an invoked command will ruin the system.
+  Sudo can also be used to run commands as other users; additionally, sudo logs all commands and failed access attempts for security auditing.
   
-  sudo 
+  TTY - Teletypewriter
+  tty is a command in unix used to check if the output medium is a terminal.
+  tty indicates the number of the virtual terminal in which we are working on at the moment.
   
-  TTY mode password
-  IPv4
+  
+  IPv4 - version 4 of the internet protocol 
+  O IPv4 utiliza endereços de 32 bits, o que limita o espaço de endereço para 4294967296 (2^32) endereços.
+  O IPv4 reserva blocos de endereços especiais para redes privadas (~18 milhões de endereços) e multicast endereços (~270 milhões de endereços).
+  IPv4 addresses may be represented in any notation expressing a 32-bit integer value. They are most often written in dot-decimal notation, which consists of four octets of the address expressed individually in decimal numbers and separated by periods.
+  For example, the quad-dotted IP address 192.0.2.235 represents the 32-bit decimal number 3221226219, which in hexadecimal format is 0xC00002EB.
+  
+  ![image](https://user-images.githubusercontent.com/56501818/152559348-d52f5c3e-e009-4c66-9106-2b8484f49939.png)
