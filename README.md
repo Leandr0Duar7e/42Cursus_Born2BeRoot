@@ -74,3 +74,12 @@ apt-like (i.e. apt-get and apt-cache) command line mode ("aptitude install foo")
   For example, the quad-dotted IP address 192.0.2.235 represents the 32-bit decimal number 3221226219, which in hexadecimal format is 0xC00002EB.
   
   ![image](https://user-images.githubusercontent.com/56501818/152559348-d52f5c3e-e009-4c66-9106-2b8484f49939.png)
+
+  ISO images - Optical Disk Image is an image that as all the data that could be on a disk stored in binary. There are softwares that create this images from disks and it is also possible to put the data from an ISO image in a CD.
+  
+  
+  To install and understand the project I then read the following articles:
+    https://baigal.medium.com/born2beroot-e6e26dfb50ac
+    https://github.com/GuillaumeOz/Born2beroot
+    https://github.com/benmaia/42_Born2beRoot/tree/master/Born2beRoot
+
