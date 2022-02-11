@@ -79,7 +79,14 @@ apt-like (i.e. apt-get and apt-cache) command line mode ("aptitude install foo")
   
   
   To install and understand the project I then read the following articles:
-    https://baigal.medium.com/born2beroot-e6e26dfb50ac
-    https://github.com/GuillaumeOz/Born2beroot
-    https://github.com/benmaia/42_Born2beRoot/tree/master/Born2beRoot
+  
+  https://baigal.medium.com/born2beroot-e6e26dfb50ac
+  
+  https://github.com/GuillaumeOz/Born2beroot
+  
+  https://github.com/benmaia/42_Born2beRoot/tree/master/Born2beRoot
 
+
+Cron - Software of unix systems that checks the date and time and sees if there is any action to take and make appear on the terminal
+
+Crontab - Its the software in wich we program orders to cron.
