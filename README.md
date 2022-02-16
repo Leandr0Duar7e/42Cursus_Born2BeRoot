@@ -90,3 +90,8 @@ apt-like (i.e. apt-get and apt-cache) command line mode ("aptitude install foo")
 Cron - Software of unix systems that checks the date and time and sees if there is any action to take and make appear on the terminal
 
 Crontab - Its the software in wich we program orders to cron.
+
+tcp - Transmission Control Protocol is one of the main protocols of IP. It solves some of the problems of data transmission between different pcs. It is the protocol number 6 int IP.
+This video explains how it works : https://www.youtube.com/watch?v=4IMc3CaMhyY&t=341s
+
+
