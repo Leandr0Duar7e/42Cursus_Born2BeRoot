@@ -96,6 +96,8 @@ This video explains how it works : https://www.youtube.com/watch?v=4IMc3CaMhyY&t
 
 The you need to study for evaluation.
 Did it using all the information above and the next repositories:
+
 https://github.com/benmaia/42_Born2beRoot/tree/master/Evaluation
+
 https://www.notion.so/Evaluation-30e2e6c7aad446149e1524027de3fe09
 
