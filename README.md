@@ -91,7 +91,11 @@ Cron - Software of unix systems that checks the date and time and sees if there 
 
 Crontab - Its the software in wich we program orders to cron.
 
-tcp - Transmission Control Protocol is one of the main protocols of IP. It solves some of the problems of data transmission between different pcs. It is the protocol number 6 int IP.
+tcp - Transmission Control Protocol is one of the main protocols of IP. It solves some of the problems of data transmission between different pcs. It is the protocol number 6 in IP.
 This video explains how it works : https://www.youtube.com/watch?v=4IMc3CaMhyY&t=341s
 
+The you need to study for evaluation.
+Did it using all the information above and the next repositories:
+https://github.com/benmaia/42_Born2beRoot/tree/master/Evaluation
+https://www.notion.so/Evaluation-30e2e6c7aad446149e1524027de3fe09
 
