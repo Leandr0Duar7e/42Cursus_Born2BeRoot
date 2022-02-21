@@ -94,7 +94,7 @@ Crontab - Its the software in wich we program orders to cron.
 tcp - Transmission Control Protocol is one of the main protocols of IP. It solves some of the problems of data transmission between different pcs. It is the protocol number 6 in IP.
 This video explains how it works : https://www.youtube.com/watch?v=4IMc3CaMhyY&t=341s
 
-The you need to study for evaluation.
+Then you need to study for evaluation.
 Did it using all the information above and the next repositories:
 
 https://github.com/benmaia/42_Born2beRoot/tree/master/Evaluation
